@@ -7,14 +7,14 @@ Este repositório é a nossa base de conhecimento compartilhada. O objetivo aqui
 ---
 
 ## 📑 Índice
-1. [Como Contribuir](#-como-contribuir)
-2. [Padrão de Commits (Conventional Commits)](#-padrão-de-commits)
-3. [Como Registrar um Problema (Troubleshooting)](#-como-registrar-um-problema)
-4. [Estrutura do Repositório](#-estrutura-do-repositório)
+1. [Como Contribuir](#como-contribuir)
+2. [Padrão de Commits (Conventional Commits)](#padrao-de-commits)
+3. [Como Registrar um Problema (Troubleshooting)](#registrar-problema)
+4. [Estrutura do Repositório](#estrutura)
 
 ---
 
-## 🤝 Como Contribuir
+## <a id="como-contribuir"></a>🤝 Como Contribuir
 
 Para manter a organização, não faça commits diretos na branch `main`. Siga este fluxo:
 
@@ -27,7 +27,7 @@ Para manter a organização, não faça commits diretos na branch `main`. Siga e
    git checkout -b feat/minha-nova-dica
    ```
 3. **Adicione seu conteúdo** seguindo os templates abaixo.
-4. **Faça o commit** usando o [Padrão de Commits](#-padrão-de-commits).
+4. **Faça o commit** usando o [Padrão de Commits](#padrao-de-commits).
 5. **Envie para o GitHub:**
    ```bash
    git push origin feat/minha-nova-dica
@@ -36,7 +36,7 @@ Para manter a organização, não faça commits diretos na branch `main`. Siga e
 
 ---
 
-## 🏷️ Padrão de Commits
+## <a id="padrao-de-commits"></a>🏷️ Padrão de Commits
 
 Nós utilizamos o **Conventional Commits** para manter o histórico legível. Todo commit deve seguir este formato:
 
@@ -50,7 +50,7 @@ Nós utilizamos o **Conventional Commits** para manter o histórico legível. To
 
 ---
 
-## 🚨 Como Registrar um Problema
+## <a id="registrar-problema"></a>🚨 Como Registrar um Problema
 
 Esta é a seção mais importante do repositório! Se você travou em um erro, resolveu e quer deixar registrado, crie um arquivo Markdown (`.md`) na pasta `/troubleshooting` ou adicione a um arquivo existente usando **exatamente** o formato abaixo:
 
@@ -72,7 +72,7 @@ git pull origin main --rebase
 
 ---
 
-## 📂 Estrutura do Repositório
+## <a id="estrutura"></a>📂 Estrutura do Repositório
 
 Organize seus arquivos da seguinte forma para facilitar a busca:
 
