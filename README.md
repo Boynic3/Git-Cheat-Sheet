@@ -1,12 +1,13 @@
 # 🛠️ Git Cheat Sheet & Dev Diary
 
-Bem-vindos ao nosso diário de bordo comunitário! 
+Bem-vindos ao nosso diário de bordo comunitário!
 
 Este repositório é a nossa base de conhecimento compartilhada. O objetivo aqui é documentar comandos úteis de Git, padronizações de projeto e, principalmente, registrar aqueles problemas chatos que resolvemos na força do ódio para nunca mais precisarmos pesquisar a solução do zero.
 
 ---
 
 ## 📑 Índice
+
 1. [Como Contribuir](#como-contribuir)
 2. [Padrão de Commits (Conventional Commits)](#padrao-de-commits)
 3. [Como Registrar um Problema (Troubleshooting)](#registrar-problema)
@@ -43,10 +44,12 @@ Nós utilizamos o **Conventional Commits** para manter o histórico legível. To
 `<tipo>: <descrição curta em minúsculas e no imperativo>`
 
 ### Tipos permitidos:
-* **`feat:`** Adiciona uma nova dica, tutorial ou registro de problema. *(Ex: feat: adiciona solucao para conflito de merge rebase)*
-* **`fix:`** Corrige um comando errado ou erro de digitação em algum documento. *(Ex: fix: corrige flag do comando git commit)*
-* **`docs:`** Alterações no README ou na estrutura de documentação. *(Ex: docs: atualiza regras de contribuicao)*
-* **`chore:`** Manutenção, organização de pastas ou arquivos ignorados. *(Ex: chore: organiza arquivos da pasta troubleshooting)*
+
+- **`feat:`** Adiciona uma nova dica, tutorial ou registro de problema. _(Ex: feat: adiciona solucao para conflito de merge rebase)_
+- **`fix:`** Corrige um comando errado ou erro de digitação em algum documento. _(Ex: fix: corrige flag do comando git commit)_
+- **`docs:`** Alterações no README ou na estrutura de documentação. _(Ex: docs: atualiza regras de contribuicao)_
+- **`chore:`** Manutenção, organização de pastas ou arquivos ignorados. _(Ex: chore: organiza arquivos da pasta troubleshooting)_
+- **`style:`** Define a aparência visual e a identidade estética da interface, controlando propriedades como cores, tipografia, espaçamentos, bordas e efeitos visuais. _(Ex: style: altera a cor de fundo primária do tema)_
 
 ---
 
@@ -56,19 +59,22 @@ Esta é a seção mais importante do repositório! Se você travou em um erro, r
 
 ### Template de Registro
 
-**Eu acabei de ter um problema assim:**  
-> Descreva o problema de forma clara. Inclua a mensagem de erro do terminal, se houver.
-> *Exemplo: Fui fazer um push, mas o repositório remoto tinha alterações que eu não tinha localmente. O terminal retornou `error: failed to push some refs`.*
+**Eu acabei de ter um problema assim:**
 
-**E a solução foi esse comando:**  
+> Descreva o problema de forma clara. Inclua a mensagem de erro do terminal, se houver.
+> _Exemplo: Fui fazer um push, mas o repositório remoto tinha alterações que eu não tinha localmente. O terminal retornou `error: failed to push some refs`._
+
+**E a solução foi esse comando:**
+
 ```bash
 # Cole o comando exato aqui
 git pull origin main --rebase
 ```
 
-**Ele serve para tal coisa:**  
-> Explique de forma simples o que o comando faz nos bastidores. 
-> *Exemplo: Esse comando baixa as alterações do repositório remoto e aplica os meus commits locais "por cima" deles, criando uma linha do tempo limpa sem commits extras de merge.*
+**Ele serve para tal coisa:**
+
+> Explique de forma simples o que o comando faz nos bastidores.
+> _Exemplo: Esse comando baixa as alterações do repositório remoto e aplica os meus commits locais "por cima" deles, criando uma linha do tempo limpa sem commits extras de merge._
 
 ---
 
@@ -83,4 +89,5 @@ Organize seus arquivos da seguinte forma para facilitar a busca:
 ```
 
 ---
-*Feito com ☕ e muito Git Reset pelos membros da equipe.*
+
+_Feito com ☕ e muito Git Reset pelos membros da equipe._
