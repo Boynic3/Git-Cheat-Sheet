@@ -17,23 +17,9 @@ Este repositório é a nossa base de conhecimento compartilhada. O objetivo aqui
 
 ## <a id="como-contribuir"></a>🤝 Como Contribuir
 
-Para manter a organização, não faça commits diretos na branch `main`. Siga este fluxo:
+Não faça commits diretos na branch `main` — toda mudança passa por uma branch própria e um Pull Request.
 
-1. **Atualize seu repositório local:**
-   ```bash
-   git pull origin main
-   ```
-2. **Crie uma nova branch para a sua dica/solução:**
-   ```bash
-   git checkout -b feat/minha-nova-dica
-   ```
-3. **Adicione seu conteúdo** seguindo os templates abaixo.
-4. **Faça o commit** usando o [Padrão de Commits](#padrao-de-commits).
-5. **Envie para o GitHub:**
-   ```bash
-   git push origin feat/minha-nova-dica
-   ```
-6. **Abra um Pull Request (PR)** e peça para alguém dar um "Approve" rápido.
+O fluxo completo, o **padrão de nomenclatura de branches** (`feat/`, `fix/`, `docs/`, etc.) e as regras para abrir um PR estão detalhados no **[CONTRIBUTING.md](./CONTRIBUTING.md)**. Ao abrir um Pull Request, o [template padrão](./.github/PULL_REQUEST_TEMPLATE.md) é carregado automaticamente.
 
 ---
 
@@ -83,8 +69,11 @@ git pull origin main --rebase
 Organize seus arquivos da seguinte forma para facilitar a busca:
 
 ```text
+├── .github/
+│   └── PULL_REQUEST_TEMPLATE.md   # Template usado automaticamente nos PRs
 ├── /cheatsheets          # Guias rápidos de comandos (ex: git-basico.md, docker-basico.md)
 ├── /troubleshooting      # Registros de problemas e soluções (siga o template acima)
+├── CONTRIBUTING.md       # Fluxo de contribuição, padrão de branches e commits
 └── README.md             # Este arquivo
 ```
 
