@@ -1,12 +1,15 @@
 ## 📄 Descrição
 
-<!-- Explique o que este PR faz e por quê. Se resolve uma issue, referencie-a abaixo. -->
+<!-- Explique o que este PR faz e por quê. -->
 
-Resolve #
+Closes #
+<!-- "Closes #123" fecha a issue automaticamente ao merge (funciona só em inglês: Closes/Fixes/Resolves).
+     Use "Relacionado a #123" (ou "Ref: #123") se for apenas referência, sem fechar. -->
 
 ## 🏷️ Tipo de mudança
 
-<!-- Marque todas as opções que se aplicam. -->
+<!-- Marque APENAS a opção que representa o tipo principal da mudança,
+     conforme Conventional Commits. Se o PR mistura tipos, considere dividir em PRs menores. -->
 
 - [ ] `feat` — nova dica, cheatsheet ou funcionalidade
 - [ ] `fix` — correção de comando/erro/link
@@ -19,11 +22,13 @@ Resolve #
 - [ ] `build` — CI/ferramentas/dependências
 - [ ] `revert` — reversão de mudança anterior
 
-## 🌿 Branch
+## 📊 Impacto
 
-<!-- Confirme que o nome da branch segue o padrão <tipo>/<descricao-curta> -->
+<!-- Isso é aditivo, corrige algo existente, ou pode afetar outros cheatsheets/arquivos? -->
 
-Nome da branch: `tipo/descricao-curta`
+- [ ] Mudança aditiva (não afeta conteúdo existente)
+- [ ] Corrige/atualiza conteúdo já existente
+- [ ] Pode impactar outras páginas (ex: links cruzados, referências)
 
 ## ✅ Checklist
 
