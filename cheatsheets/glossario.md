@@ -48,6 +48,14 @@ Seu propósito é servir como guia de referência rápida e padronizada para equ
 | :--- | :--- | :--- | :--- | :--- |
 | **Conventional Commits** | Convenção de Mensagens de Commit | Especificação padronizada de mensagens de commit para legibilidade humana e automação por máquinas. | Estruturação de histórico (ex.: `feat: add oauth2 login`, `fix: resolve memory leak`), automação de changelogs. | <!-- [`[Mensagens de Commit]`](./docs/conventional-commits.md) \| [`[SemVer]`](./docs/semver-guide.md) --> |
 | **CI/CD** | Continuous Integration / Continuous Deployment | Prática e conjunto de pipelines para automatizar build, testes e implantação contínua de aplicações. | Execução de suítes de testes automatizados e deploy em ambientes de staging/produção via GitHub Actions. | <!-- [`[DevOps]`](./docs/devops-ci-cd.md) \| [`[GitHub Actions]`](./docs/github-actions.md) --> |
+| **API**| Application Programming Interface | Permite a comunicação entre sistemas, que um aplicativo solicite dados ou serviços de outro sistema. | Envio de código de verificação(SMS ou WhatsApp por exemplo), Botão de login como "Entrar com o Google" e "Entrar com o Facebook" | |
+| **Endpoint** | Ponto de acesso / URL de Serviço | Um endereço de URL específico onde uma API recebe as requisições de um sistema para enviar ou buscar dados. | A URL ://site.com que o aplicativo celular acessa para puxar a lista de itens que aparecem na tela do usuário. | |
+| **Deploy** | Distribuição / Implantação | Publicar o sistema em produção, basicamente "colocar no ar" a aplicação desenvolvida. | Disponibilizar uma versão preliminar para testes internos ou para o acesso real dos usuários| |
+| **Escalability** | Escalabilidade | Capacidade de um sistema suportar um aumento crescente de carga de trabalho (usuários ou dados) sem perder desempenho. | Adaptar o site de uma loja para não cair durante os acessos massivos da Black Friday, ou aumentar servidores automaticamente quando um app viraliza. | |
+| **Refactoring** | Refatoração | Melhorar a estrutura interna de um código para torná-lo mais limpo e eficiente, sem alterar o seu comportamento visual ou funcional. | Organizar um código confuso e repetitivo feito às pressas para que outros programadores consigam entendê-lo e modificá-lo mais facilmente no futuro. | |
+| **Framework** | Estrutura / Modelo de trabalho | Conjunto de ferramentas, códigos e estruturas pré-moldadas que servem de base para guiar e acelerar o desenvolvimento de um software. | Usar o React ou Bootstrap para criar o visual de um site rapidamente, em vez de programar cada botão e animação do zero absoluto. | |
+| **Stack** | Conjunto de tecnologias | O conjunto de tecnologias, linguagens de programação, bancos de dados e ferramentas utilizadas para construir e rodar um software. | Uma empresa que usa Python, Django e PostgreSQL para criar seu sistema web define essa combinação como a sua stack de desenvolvimento. | |
+
 
 <!--
 | **SemVer** | Semantic Versioning / Versionamento Semântico | Sistema de versionamento baseado no formato `MAJOR.MINOR.PATCH` segundo regras de compatibilidade. | Definição de lançamentos de software, APIs e controle de dependências em gerenciadores de pacotes. | <!-- [`[SemVer]`](./docs/semver-guide.md) |
@@ -57,29 +65,10 @@ Seu propósito é servir como guia de referência rápida e padronizada para equ
 -->
 ---
 
-## 4. 67
-
-| Termo / Abreviação | Nome Real |
-| :--- | :--- |
-| **Farmar Aura** | Farmar / Aura |
-| **Perder Aura** | Perder Aura | 
-| **Resenha** | Resenha |
-| **Tankar** | Tankar |
-| **NPC** | Betas |
-| **Crashar** | Pifar | 
-| **Skill Issue** | Falta de Habilidade |
-| **GOAT** | Moretti | 
-| **Prime** | Prime |
-|**Let Him Cook / Cook** | Deixe Ele Cozinhar | 
-| **Moggado / Mogado** | Mogging |
-| **Beta** | Beta | 
-| **67** | 67 / 66 | 67 | 67 |
-| **Mewing** | Mewing | 
-
----
 
 ## Histórico de Versão
 
 | Versão | Data | Autor / Contribuidor | Descrição das Alterações |
 | :--- | :--- | :--- | :--- |
 | **1.0** | 08/09/2026 | Pedrinho | Criação inicial do cheatsheet e glossário com seções de Git, GitHub, Boas Práticas e padrão de hyperlinks. |
+| **1.01**| 11/09/2026| Moretti | Adiciona mais termos no Tópico 3 Boas Práticas, Padrões e Arquitetura
