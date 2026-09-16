@@ -20,3 +20,5 @@ Se já tiver ideia de em qual arquivo/seção isso entra, coloca aqui. Se não s
 ## Referências (se tiver)
 
 Link de doc oficial, post, StackOverflow, o que for. Ajuda quem for escrever o conteúdo.
+
+[Texto](https://exemplo.com "Título do Link")
